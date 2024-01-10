@@ -21,6 +21,8 @@ jobs:
       shamanopsTechnicalApproversMinimalProd: '1'
     # Feature flags
       sbom_check_enabled: 'true'
+    # Verbosity level
+      log_level: 'debug'
     secrets:
       shamanops_customer_token: ${{ secrets.shamanops_customer_token }}
       shamanops_argocd_dev_token: ${{ secrets.shamanops_argocd_dev_token }}
