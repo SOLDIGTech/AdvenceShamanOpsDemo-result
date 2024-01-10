@@ -20,7 +20,7 @@ jobs:
       shamanopsBusinessApproversMinimalProd: '0'
       shamanopsTechnicalApproversMinimalProd: '1'
     # Feature flags
-      sbom_check_enabled: 'false'
+      sbom_check_enabled: 'true'
     # Verbosity level
       log_level: 'debug'
     secrets:
