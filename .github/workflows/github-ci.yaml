@@ -18,14 +18,7 @@ jobs:
       shamanopsBusinessApprovers: 'jroca@customer.com'
       shamanopsTechnicalApprovers: 'jroca@shamanops.com'
       shamanopsBusinessApproversMinimalProd: '0'
-      shamanopsTechnicalApproversMinimalProd: '1'
-    # Feature flags
-      security_check_enabled: 'true'
-      security_check_report_upload: 'true'
-      sbom_check_enabled: 'true'
-      sbom_check_report_upload: 'true'
-    # Verbosity level
-      log_level: 'normal'
+      shamanopsTechnicalApproversMinimalProd: '0'
     secrets:
       shamanops_customer_token: ${{ secrets.shamanops_customer_token }}
       shamanops_argocd_dev_token: ${{ secrets.shamanops_argocd_dev_token }}
