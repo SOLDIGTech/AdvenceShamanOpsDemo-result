@@ -14,11 +14,11 @@ jobs:
     ## full-with-drp (dev/stg/prod/drp) | full (dev/stg/prod) | mid (stg/prod) | minimal (prod)
       environments: 'minimal'
     # Project
-      projectName: 'examples'
+      projectName: 'hipercompumegared'
     # Approvals
       shamanopsBusinessApprovers: 'juan.d.sivo@gmail.com'
       shamanopsTechnicalApprovers: 'rocajp@gmail.com'
-      shamanopsBusinessApproversMinimalProd: '1'
+      shamanopsBusinessApproversMinimalProd: '0'
       shamanopsTechnicalApproversMinimalProd: '1'
     secrets:  
       shamanops_customer_token: ${{ secrets.shamanops_customer_token }}
